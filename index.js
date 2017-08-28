@@ -9,8 +9,8 @@ function fatBastard(meal) {
     }
   }
 
-  function digest() { // digest() is an inner function, a closure
-  meal = undefined; // digest() uses argument provided to the parent function
+  function digest() {
+  meal = undefined;
   }
 
   return {
