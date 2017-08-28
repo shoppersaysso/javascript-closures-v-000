@@ -8,12 +8,13 @@ function fatBastard(meal) {
       console.log("I'm eatin' a bit of ${meal}! Burp.");
     }
   }
+
   function digest() { // digest() is an inner function, a closure
   meal = undefined; // digest() uses argument provided to the parent function
-}
+  }
 
-return {
-  whatsForDinner,
-  digest
-};
+  return {
+    whatsForDinner,
+    digest
+  };
 }
